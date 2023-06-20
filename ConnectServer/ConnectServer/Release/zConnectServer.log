@@ -1,0 +1,34 @@
+﻿Построение начато 11.01.2018 17:53:56.
+     1>Проект "D:\ExTeam\Season10Episode3\Source\zConnectServer\zConnectServer\zConnectServer.vcxproj" в узле 2 (целевые объекты Build).
+     1>ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\zConnectServer.res" zConnectServer.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ExTeam\Season10Episode3\Source\zConnectServer\Release\zConnectServer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\zConnectServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\ExTeam\Season10Episode3\Source\zConnectServer\Release\zConnectServer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ExTeam\Season10Episode3\Source\zConnectServer\Release\zConnectServer.lib" /MACHINE:X86 Release\zConnectServer.res
+         Release\BlackList.obj
+         Release\CriticalSec.obj
+         Release\eXWindow.obj
+         Release\giocp.obj
+         Release\Protocol.obj
+         Release\ServerInit.obj
+         Release\ServerList.obj
+         Release\Settings.obj
+         Release\stdafx.obj
+         Release\UdpProtocol.obj
+         Release\User.obj
+         Release\WhiteList.obj
+         Release\Window.obj
+         Release\winutil.obj
+         Release\WzQueue.obj
+         Release\WzUdp.obj
+         Release\zConnectServer.obj
+         VMProtectSDK32.lib
+         Создание кода
+         Создание кода завершено
+         zConnectServer.vcxproj -> D:\ExTeam\Season10Episode3\Source\zConnectServer\Release\zConnectServer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\ExTeam\Season10Episode3\Source\zConnectServer\Release\zConnectServer.exe;#1" /manifest Release\zConnectServer.exe.intermediate.manifest
+     1>Построение проекта "D:\ExTeam\Season10Episode3\Source\zConnectServer\zConnectServer\zConnectServer.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.75

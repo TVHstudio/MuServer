@@ -1,0 +1,14 @@
+﻿Построение начато 12.04.2020 3:30:55.
+     1>Проект "D:\ExTeam\Season6Episode3\Source\DS\Source_DB\Dataserver.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к ".\Debug\Dataserver.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\Dataserver.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>d:\exteam\season6episode3\source\ds\source_db\stdafx.h(23): warning C4005: _WIN32_WINNT: изменение макроопределения
+                 d:\exteam\season6episode3\source\ds\source_db\stdafx.h(15): см. предыдущее определение "_WIN32_WINNT"
+     1>Построение проекта "D:\ExTeam\Season6Episode3\Source\DS\Source_DB\Dataserver.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:03.36

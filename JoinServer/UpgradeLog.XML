@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="zMultiServer">
+</Property><Property Name="Файл решения" Value="D:\ExTeam\Season10Episode3\Source\MultiServer\zMultiServer.sln">
+</Property><Property Name="Файл параметров пользователя" Value="D:\ExTeam\Season10Episode3\Source\MultiServer\zMultiServer.suo">
+</Property><Property Name="Date" Value="4 июня 2017 г.">
+</Property><Property Name="Time" Value="4:06">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="zMultiServer.sln" Description="Успешно создана резервная копия файла D:\ExTeam\Season10Episode3\Source\MultiServer\zMultiServer.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="zMultiServer.suo" Description="Успешно создана резервная копия файла D:\ExTeam\Season10Episode3\Source\MultiServer\zMultiServer.suo.old">
+</Event><Event ErrorLevel="0" Project="zMultiServer" Source="Source\zMultiServer.vcproj" Description="Converting project file 'D:\ExTeam\Season10Episode3\Source\MultiServer\Source\zMultiServer.vcproj'.">
+</Event><Event ErrorLevel="1" Project="zMultiServer" Source="Source\zMultiServer.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="zMultiServer" Source="Source\zMultiServer.vcproj" Description="MSB8012: $(TargetPath) ('D:\ExTeam\Season10Episode3\Source\MultiServer\Release\zMultiServer.exe') does not match the Linker's OutputFile property value '../Release/zMultiServer.exe' ('D:\ExTeam\Season10Episode3\Source\MultiServer\../Release/zMultiServer.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="zMultiServer" Source="Source\zMultiServer.vcproj" Description="Done converting to new project file 'D:\ExTeam\Season10Episode3\Source\MultiServer\Source\zMultiServer.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="zMultiServer" Source="Source\zMultiServer.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="zMultiServer.sln" Description="Преобразование решения успешно завершено">
+</Event><Event ErrorLevel="3" Project="" Source="zMultiServer.sln" Description="Converted">
+</Event></UpgradeLog>

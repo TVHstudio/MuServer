@@ -1,0 +1,4 @@
+﻿  zTWindow.cpp
+e:\work\tranet_version\joinserver\source\resource.h(30): warning C4005: “IDC_STATIC”: 宏重定义
+          D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxres.h(306) : 参见“IDC_STATIC”的前一个定义
+  zMultiServer.vcxproj -> E:\work\tranet_version\run\Server\MultiServer\zMultiServer.exe

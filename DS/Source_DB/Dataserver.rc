@@ -1,0 +1,312 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+//  ÓÂÈÒÍË?( ÓÂˇ) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Dataserver.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Dataserver.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Exit",                       ID_APP_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About...",                   ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 59
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 9, "±º∏≤", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "DataServer",IDC_VERSION,40,10,119,8,SS_NOPREFIX
+    LTEXT           "®œ ZtTeam MuOnline Developers",IDC_STATIC,40,25,122,8
+    DEFPUSHBUTTON   "Ok",IDOK,178,7,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,7,0,4
+ PRODUCTVERSION 0,7,0,4
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "CompanyName", "ZtTeam"
+            VALUE "FileDescription", "Dataserver"
+            VALUE "FileVersion", "0, 7, 0, 4"
+            VALUE "InternalName", "Dataserver"
+            VALUE "LegalCopyright", "Copyright (C) 2012-2016"
+            VALUE "OriginalFilename", "Dataserver.EXE"
+            VALUE "ProductName", "Dataserver"
+            VALUE "ProductVersion", "0, 7, 0, 4"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 52
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "Dataserver"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "Dataserver"
+    AFX_IDS_IDLEMESSAGE     "¡ÿ∫Ò"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "«¡∑Œ±◊∑• ¡§∫∏øÕ πˆ¿¸ ¡§∫∏, ¿˙¿€±« ¡§∫∏∏¶ «•Ω√«’¥œ¥Ÿ\n¡§∫∏"
+    ID_APP_EXIT             "¿¿øÎ «¡∑Œ±◊∑•¿ª ¡æ∑·«œ±‚ ¿ß«ÿ πÆº≠∏¶ ¿˙¿Â«“ ∞Õ¿Œ¡ˆ πØΩ¿¥œ¥Ÿ\n¡æ∑·"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "¥Ÿ¿Ω √¢¿∏∑Œ ¿¸»Ø«’¥œ¥Ÿ\n¥Ÿ¿Ω √¢"
+    ID_PREV_PANE            "¿Ã¿¸ √¢¿∏∑Œ ¿¸»Ø«’¥œ¥Ÿ\n¿Ã¿¸ √¢"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "«ˆ¿Á ø≠∏∞ √¢¿ª ≥™¥Ø¥œ¥Ÿ\n≥™¥©±‚"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "º±≈√ ∫Œ∫–¿ª ¡ˆøÛ¥œ¥Ÿ\n¡ˆøÏ±‚"
+    ID_EDIT_CLEAR_ALL       "∏µÁ ∞Õ¿ª ¡ˆøÛ¥œ¥Ÿ\n∏µŒ ¡ˆøÏ±‚"
+    ID_EDIT_COPY            "º±≈√ ∫Œ∫–¿ª ∫πªÁ«œø© ≈¨∏≥∫∏µÂø° ≥÷Ω¿¥œ¥Ÿ\n∫πªÁ"
+    ID_EDIT_CUT             "º±≈√ ∫Œ∫–¿ª ¿ﬂ∂Û≥ªæÓ ≈¨∏≥∫∏µÂø° ≥÷Ω¿¥œ¥Ÿ\n¿ﬂ∂Û≥ª±‚"
+    ID_EDIT_FIND            "¡ˆ¡§«— πÆ¿⁄ø≠¿ª √£Ω¿¥œ¥Ÿ\n√£±‚"
+    ID_EDIT_REPEAT          "∏∂¡ˆ∏∑¿∏∑Œ Ω««‡«— µø¿€¿ª π›∫π«’¥œ¥Ÿ\nπ›∫π"
+    ID_EDIT_REPLACE         "¡ˆ¡§«— πÆ¿⁄ø≠¿ª ¥Ÿ∏• πÆ¿⁄ø≠∑Œ πŸ≤ﬂ¥œ¥Ÿ\nπŸ≤Ÿ±‚"
+    ID_EDIT_SELECT_ALL      "πÆº≠ ¿¸√º∏¶ º±≈√«’¥œ¥Ÿ\n¿¸√º º±≈√"
+    ID_EDIT_UNDO            "∏∂¡ˆ∏∑¿∏∑Œ «— µø¿€¿ª √Îº“«’¥œ¥Ÿ\nΩ««‡ √Îº“"
+    ID_EDIT_REDO            "¿Ã¿¸ø° √Îº“«— µø¿€¿ª ¥ŸΩ√ ºˆ«‡«’¥œ¥Ÿ\n¥ŸΩ√ Ω««‡"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "µµ±∏ ∏¿Ω¿ª ∫∏¿Ã∞≈≥™ ∞®√‰¥œ¥Ÿ$0Aµµ±∏ ∏¿Ω ¿¸»Ø"
+    ID_VIEW_STATUS_BAR      "ªÛ≈¬ «•Ω√¡Ÿ¿ª «•Ω√«œ∞≈≥™ ∞®√‰¥œ¥Ÿ$0AªÛ≈¬ «•Ω√¡Ÿ ¿¸»Ø"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "√¢¿« ≈©±‚∏¶ ∫Ø∞Ê«’¥œ¥Ÿ"
+    AFX_IDS_SCMOVE          "√¢¿« ¿ßƒ°∏¶ ∫Ø∞Ê«’¥œ¥Ÿ"
+    AFX_IDS_SCMINIMIZE      "√¢¿ª æ∆¿Ãƒ‹¿∏∑Œ ¡Ÿø©º≠ «•Ω√«’¥œ¥Ÿ"
+    AFX_IDS_SCMAXIMIZE      "√¢¿ª √÷¥Î ≈©±‚∑Œ »Æ¿Â«’¥œ¥Ÿ"
+    AFX_IDS_SCNEXTWINDOW    "¥Ÿ¿Ω πÆº≠ √¢¿∏∑Œ ¿¸»Ø«’¥œ¥Ÿ"
+    AFX_IDS_SCPREVWINDOW    "¿Ã¿¸ πÆº≠ √¢¿∏∑Œ ¿¸»Ø«’¥œ¥Ÿ"
+    AFX_IDS_SCCLOSE         "«ˆ¿Á ø≠∏∞ √¢¿ª ¥›∞Ì πÆº≠∏¶ ¿˙¿Â«“ ∞Õ¿Œ¡ˆ∏¶ πØΩ¿¥œ¥Ÿ"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "√¢¿ª ø¯∑° ≈©±‚∑Œ ∫πø¯«’¥œ¥Ÿ"
+    AFX_IDS_SCTASKLIST      "¿€æ˜ ∏Ò∑œ¿ª »∞º∫»≠«’¥œ¥Ÿ"
+END
+
+#endif    //  ÓÂÈÒÍË?( ÓÂˇ) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\Dataserver.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

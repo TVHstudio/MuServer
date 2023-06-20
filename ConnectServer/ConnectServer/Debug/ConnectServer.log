@@ -1,0 +1,225 @@
+﻿  stdafx.cpp
+  WzUdp.cpp
+  WzQueue.cpp
+  winutil.cpp
+e:\work\tranet_version\connectserver\connectserver\winutil.cpp(66): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+e:\work\tranet_version\connectserver\connectserver\winutil.cpp(74): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+  Window.cpp
+e:\work\tranet_version\connectserver\connectserver\window.cpp(17): error C2664: “CreateDirectoryW”: 不能将参数 1 从“const char [5]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\window.cpp(54): error C2664: “SetWindowTextW”: 不能将参数 2 从“const char [1]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\window.cpp(161): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [3]”转换为“const wchar_t *”
+          with
+          [
+              BaseType=wchar_t,
+              StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+          ]
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\window.cpp(162): error C2664: “SetDlgItemTextA”: 不能将参数 3 从“ATL::CString”转换为“LPCSTR”
+          没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+e:\work\tranet_version\connectserver\connectserver\window.cpp(164): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [3]”转换为“const wchar_t *”
+          with
+          [
+              BaseType=wchar_t,
+              StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+          ]
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\window.cpp(165): error C2664: “SetDlgItemTextA”: 不能将参数 3 从“ATL::CString”转换为“LPCSTR”
+          没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+e:\work\tranet_version\connectserver\connectserver\window.cpp(167): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [3]”转换为“const wchar_t *”
+          with
+          [
+              BaseType=wchar_t,
+              StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+          ]
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\window.cpp(168): error C2664: “SetDlgItemTextA”: 不能将参数 3 从“ATL::CString”转换为“LPCSTR”
+          没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+e:\work\tranet_version\connectserver\connectserver\window.cpp(170): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [3]”转换为“const wchar_t *”
+          with
+          [
+              BaseType=wchar_t,
+              StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+          ]
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\window.cpp(171): error C2664: “SetDlgItemTextA”: 不能将参数 3 从“ATL::CString”转换为“LPCSTR”
+          没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+e:\work\tranet_version\connectserver\connectserver\window.cpp(181): error C2664: “ShellExecuteW”: 不能将参数 2 从“const char [5]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\window.cpp(223): error C2664: “GetDlgItemTextW”: 不能将参数 3 从“char *”转换为“LPWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\window.cpp(267): error C2664: “GetDlgItemTextW”: 不能将参数 3 从“char *”转换为“LPWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\window.cpp(433): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [10]”转换为“const wchar_t *”
+          with
+          [
+              BaseType=wchar_t,
+              StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+          ]
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\window.cpp(438): error C2664: “SetDlgItemTextW”: 不能将参数 3 从“const char [4]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\window.cpp(442): error C2664: “SetDlgItemTextW”: 不能将参数 3 从“const char [3]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\window.cpp(447): error C2664: “SetDlgItemTextW”: 不能将参数 3 从“const char [4]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\window.cpp(451): error C2664: “SetDlgItemTextW”: 不能将参数 3 从“const char [3]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+  WhiteList.cpp
+e:\work\tranet_version\connectserver\connectserver\readscript.h(12): error C2365: “LP”: 重定义；以前的定义是“typedef”
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(450) : 参见“LP”的声明
+e:\work\tranet_version\connectserver\connectserver\readscript.h(47): error C2275: “LP”: 将此类型用作表达式非法
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(450) : 参见“LP”的声明
+e:\work\tranet_version\connectserver\connectserver\whitelist.cpp(44): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [29]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+  User.cpp
+e:\work\tranet_version\connectserver\connectserver\user.cpp(44): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+  UdpProtocol.cpp
+  Settings.cpp
+e:\work\tranet_version\connectserver\connectserver\settings.cpp(13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+e:\work\tranet_version\connectserver\connectserver\settings.cpp(18): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [28]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\settings.cpp(25): warning C4800: “UINT”: 将值强制为布尔值“true”或“false”(性能警告)
+e:\work\tranet_version\connectserver\connectserver\settings.cpp(26): warning C4800: “UINT”: 将值强制为布尔值“true”或“false”(性能警告)
+e:\work\tranet_version\connectserver\connectserver\settings.cpp(30): error C2664: “GetPrivateProfileStringW”: 不能将参数 1 从“const char [4]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\settings.cpp(31): error C2664: “GetPrivateProfileIntW”: 不能将参数 1 从“const char [4]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\settings.cpp(32): error C2664: “GetPrivateProfileStringW”: 不能将参数 1 从“const char [4]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\settings.cpp(33): error C2664: “GetPrivateProfileStringW”: 不能将参数 1 从“const char [4]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\settings.cpp(34): error C2664: “GetPrivateProfileStringW”: 不能将参数 1 从“const char [4]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\settings.cpp(35): error C2664: “GetPrivateProfileStringW”: 不能将参数 1 从“const char [4]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\settings.cpp(38): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [3]”转换为“const wchar_t *”
+          with
+          [
+              BaseType=wchar_t,
+              StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+          ]
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+  ServerList.cpp
+e:\work\tranet_version\connectserver\connectserver\readscript.h(12): error C2365: “LP”: 重定义；以前的定义是“typedef”
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(450) : 参见“LP”的声明
+e:\work\tranet_version\connectserver\connectserver\readscript.h(47): error C2275: “LP”: 将此类型用作表达式非法
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(450) : 参见“LP”的声明
+e:\work\tranet_version\connectserver\connectserver\serverlist.cpp(21): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [30]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\serverlist.cpp(63): warning C4244: “=”: 从“double”转换到“WORD”，可能丢失数据
+  ServerInit.cpp
+  Protocol.cpp
+e:\work\tranet_version\connectserver\connectserver\protocol.cpp(15): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+e:\work\tranet_version\connectserver\connectserver\protocol.cpp(22): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+e:\work\tranet_version\connectserver\connectserver\protocol.cpp(26): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+e:\work\tranet_version\connectserver\connectserver\protocol.cpp(30): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+e:\work\tranet_version\connectserver\connectserver\protocol.cpp(147): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+e:\work\tranet_version\connectserver\connectserver\protocol.cpp(148): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+e:\work\tranet_version\connectserver\connectserver\protocol.cpp(149): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+e:\work\tranet_version\connectserver\connectserver\protocol.cpp(150): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+e:\work\tranet_version\connectserver\connectserver\protocol.cpp(191): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+e:\work\tranet_version\connectserver\connectserver\protocol.cpp(192): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+e:\work\tranet_version\connectserver\connectserver\protocol.cpp(193): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+e:\work\tranet_version\connectserver\connectserver\protocol.cpp(194): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+e:\work\tranet_version\connectserver\connectserver\protocol.cpp(335): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+  giocp.cpp
+e:\work\tranet_version\connectserver\connectserver\giocp.cpp(24): error C2664: “strcpy”: 不能将参数 2 从“LPCTSTR”转换为“const char *”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+  eXWindow.cpp
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(44): error C2664: “CreateFontW”: 不能将参数 14 从“const char [6]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(48): error C2664: “CreateFontW”: 不能将参数 14 从“const char [7]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(66): error C2440: “=”: 无法从“char [128]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(67): error C2440: “=”: 无法从“char [128]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(77): error C2664: “CreateWindowExW”: 不能将参数 2 从“char [128]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(103): error C2664: “LoadAcceleratorsW”: 不能将参数 2 从“LPCSTR”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(120): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [7]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(148): error C2664: “AppendMenuW”: 不能将参数 4 从“const char [5]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(149): error C2664: “AppendMenuW”: 不能将参数 4 从“const char [5]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(151): error C2664: “AppendMenuW”: 不能将参数 4 从“const char [7]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(153): error C2664: “AppendMenuW”: 不能将参数 4 从“const char [7]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(155): error C2664: “AppendMenuW”: 不能将参数 4 从“const char [5]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(156): error C2664: “AppendMenuW”: 不能将参数 4 从“const char [6]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(373): error C2664: “TextOutW”: 不能将参数 4 从“char [28]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(409): error C2664: “TextOutW”: 不能将参数 4 从“char [100]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(568): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [3]”转换为“const wchar_t *”
+          with
+          [
+              BaseType=wchar_t,
+              StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+          ]
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(569): error C2664: “SetDlgItemTextA”: 不能将参数 3 从“ATL::CString”转换为“LPCSTR”
+          没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(571): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [3]”转换为“const wchar_t *”
+          with
+          [
+              BaseType=wchar_t,
+              StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+          ]
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(572): error C2664: “SetDlgItemTextA”: 不能将参数 3 从“ATL::CString”转换为“LPCSTR”
+          没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(574): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [3]”转换为“const wchar_t *”
+          with
+          [
+              BaseType=wchar_t,
+              StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+          ]
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(575): error C2664: “SetDlgItemTextA”: 不能将参数 3 从“ATL::CString”转换为“LPCSTR”
+          没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(577): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [3]”转换为“const wchar_t *”
+          with
+          [
+              BaseType=wchar_t,
+              StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+          ]
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(578): error C2664: “SetDlgItemTextA”: 不能将参数 3 从“ATL::CString”转换为“LPCSTR”
+          没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+e:\work\tranet_version\connectserver\connectserver\exwindow.cpp(588): error C2664: “ShellExecuteW”: 不能将参数 2 从“const char [5]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+  CriticalSec.cpp
+  ConnectServer.cpp
+  BlackList.cpp
+e:\work\tranet_version\connectserver\connectserver\readscript.h(12): error C2365: “LP”: 重定义；以前的定义是“typedef”
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(450) : 参见“LP”的声明
+e:\work\tranet_version\connectserver\connectserver\readscript.h(47): error C2275: “LP”: 将此类型用作表达式非法
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(450) : 参见“LP”的声明
+e:\work\tranet_version\connectserver\connectserver\blacklist.cpp(44): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [29]”转换为“LPCWSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+  正在生成代码...
